@@ -1,3 +1,5 @@
+package day1
+
 import ResourceFileReader.Companion.readAocFile
 
 class Day1 {
@@ -15,7 +17,7 @@ class Day1 {
                 .filter { it.isNotBlank() }
                 .map { it.split(" ") }
                 .map { it.map { it2 -> it2.toLong() } }
-                .map {it.sum()}
+                .map { it.sum() }
         }
     }
 }
