@@ -2,6 +2,7 @@ import day1.Day1
 import day2.Day2
 import day3.Day3
 import day4.Day4
+import day5.Day5
 
 fun main() {
     println("Day 1 - problem 1: ${Day1.problem1()}")
@@ -12,4 +13,6 @@ fun main() {
     println("Day 3 - problem 2: ${Day3.problem2()}")
     println("Day 4 - problem 1: ${Day4.problem1()}")
     println("Day 4 - problem 2: ${Day4.problem2()}")
+    println("Day 5 - problem 1: ${Day5.problem1()}")
+    println("Day 5 - problem 2: ${Day5.problem2()}")
 }
